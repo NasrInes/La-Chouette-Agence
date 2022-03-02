@@ -59,6 +59,20 @@ p {
     font-size: 18px;
 }
 
+@media (min-width: 768px) { 
+.img-responsive {
+    height: 270px;
+    width: 270px;
+}
+}
+
+@media (max-width: 768px) { 
+    .img-responsive {
+        height: 320px;
+        width: 320px;
+    }
+    }
+
 .bloc {
     width: 100%;
     clear: both;
