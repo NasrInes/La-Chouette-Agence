@@ -27,14 +27,13 @@ a:hover {
     background: #FFFFFF url("img/pageload-spinner.gif") no-repeat center center;
 }
 .navbar-brand {
-    width: 260px;
     display: flex;
     font-family: 'Viaoda Libre', cursive;
-    justify-content: space-between;
 }
 .navbar-brand p {
     font-family: 'Viaoda Libre', cursive;
     font-size: 24px;
+    margin-left: 12px;
 }
 
 .citation {
