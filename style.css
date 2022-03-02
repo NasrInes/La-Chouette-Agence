@@ -35,6 +35,18 @@ a:hover {
     font-size: 24px;
     margin-left: 12px;
 }
+.ready {
+    position: relative;
+    z-index: 2;
+}
+
+.icon-md {
+    color: white;
+}
+.icon-md:hover {
+    color: rgb(246, 246, 191);
+    transform: scale(130%);
+}
 
 p {
     font-size: 16px;
@@ -143,7 +155,7 @@ p {
 .d-bloc .navbar a,
 .d-bloc .navbar-brand,
 .d-bloc a .icon-sm,
-.d-bloc a .icon-md,
+.d-bloc a,
 .d-bloc a .icon-lg,
 .d-bloc a .icon-xl,
 .d-bloc h1 a,
@@ -160,7 +172,6 @@ p {
 .d-bloc .navbar a:hover,
 .d-bloc .navbar-brand:hover,
 .d-bloc a:hover .icon-sm,
-.d-bloc a:hover .icon-md,
 .d-bloc a:hover .icon-lg,
 .d-bloc a:hover .icon-xl,
 .d-bloc h1 a:hover,
@@ -788,21 +799,23 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #C14E18;
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #ffffff!important;
+    font-weight: bold;
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: #C14E18;
     color: #FFFFFF!important;
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c27956!important;
+    background: #72442f!important;
     color: #FFFFFF!important;
+    transform: scale(105%);
 }
 
 .ltc-white {
@@ -814,7 +827,7 @@ h4 {
 }
 
 .ltc-atomic-tangerine {
-    color: #F3976C!important;
+    color: #C14E18!important;
 }
 
 .ltc-atomic-tangerine:hover {
