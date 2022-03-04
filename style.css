@@ -26,12 +26,17 @@ a:hover {
     z-index: 100000;
     background: #FFFFFF url("img/pageload-spinner.gif") no-repeat center center;
 }
-
+.navigation-a:hover {
+    color: #C14E18!important;
+    text-decoration: underline!important;
+}
 label.required:after {
     content: "* ";
     color: red;
 }
-
+.text-contact {
+    color: white!important;
+}
 .navbar-brand {
     display: flex;
     font-family: 'Viaoda Libre', cursive;
@@ -748,7 +753,6 @@ a {
 .cta-hero {
     margin-top: 22px;
     color: #FFFFFF!important;
-    text-transform: uppercase;
     padding: 12px 28px 12px 28px;
     font-size: 16px;
     font-weight: 700;
@@ -1082,15 +1086,108 @@ h4 {
     }
 }
 
-@media (max-width: 400px) {
-    .bloc {
-        padding-left: 0;
-        padding-right: 0;
+@media (max-width: 480px) { 
+    #bloc-1-hero h1 {
+        font-size: 24px;
     }
+    h2 {
+        font-size: 20px;
+    }
+    .title-contact {
+        font-size: 24px;
+    }
+
+
 }
+
 
 @media (max-width: 767px) {
     .bloc-mob-center-text {
         text-align: center;
+    }
+    #bloc-2-services {
+        padding: 20px;
+    }
+    .col-sm-6 {
+        margin-bottom: 50px;
+    }
+    .row {
+        margin-bottom: 0px;
+    }
+
+    .row2 {
+        margin-top: 0;
+    }
+    .real-block {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .ready {
+        width: 80%;
+    }
+    .information {
+        font-size: 14px!important;
+    }
+    .social {
+        display: flex;
+        flex-direction: row;
+        width: 60%;
+        justify-content: space-between;
+    }
+    .row-form {
+        display: flex;
+        flex-direction: column;
+
+    }
+    .col-form {
+        width: 100%;
+    }
+    .col-maps {
+        width: 100%;
+    }
+    .google-maps {
+        width:100%;
+    }
+    .bloc-form {
+        padding-right: 30px!important;
+        padding-left: 30px!important;
+    }
+
+}
+
+@media (min-width: 768px) {
+    .row-footer {
+        display: flex;
+        align-content: center;
+    }
+    .col-footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .social {
+        width: 40%;
+    }
+    .information {
+        font-size: 14px!important;
+        margin-bottom: 0;
+    }
+    .row-form {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+    }
+    .col-form {
+        width: 50%;
+    }
+    .col-maps {
+        width: 50%;
+    }
+    .google-maps {
+        width:100%;
     }
 }
