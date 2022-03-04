@@ -56,6 +56,10 @@ label.required:after {
     transform: scale(130%);
 }
 
+h2, label, #logo-type {
+    font-weight: bolder!important;
+}
+
 p {
     font-size: 16px;
 }
