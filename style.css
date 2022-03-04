@@ -26,6 +26,12 @@ a:hover {
     z-index: 100000;
     background: #FFFFFF url("img/pageload-spinner.gif") no-repeat center center;
 }
+
+label.required:after {
+    content: "* ";
+    color: red;
+}
+
 .navbar-brand {
     display: flex;
     font-family: 'Viaoda Libre', cursive;
@@ -39,7 +45,9 @@ a:hover {
     position: relative;
     z-index: 2;
 }
-
+.information {
+    margin-bottom: 30px;
+}
 .icon-md {
     color: white;
 }

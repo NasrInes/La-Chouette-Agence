@@ -82,33 +82,33 @@
 	<div class="container bloc-lg">
 		<div class="row">
 			<div class="col-sm-6">
-				<form id="form_1" novalidate success-msg="Your message has been sent." fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
+				<form id="form_1" action="" method="get">
 					<div class="form-group">
-						<label>
+						<label for="name" class="required">
 							Nom
 						</label>
-						<input id="name" class="form-control" required />
+						<input type="text" id="name" class="form-control" placeholder="Sarah Lu" required/>
 					</div>
 					<div class="form-group">
-						<label>
+						<label for="email" class="required">
 							Adresse email
 						</label>
-						<input id="email" class="form-control" type="email" required />
+						<input id="email" class="form-control" type="email" required placeholder="sarah-lu@hotmail.fr"/>
 					</div>
 					<div class="form-group">
-						<label>
+						<label for="input_504">
 							Comment nous avez-vous connu ?
 						</label>
-						<input class="form-control" type="email" required id="input_504" />
+						<input class="form-control" type="text" id="input_504" placeholder="Un proche, Instagram, Twitter..."/>
 					</div>
 					<div class="form-group">
-						<label>
-							Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
-						</label><textarea id="message" class="form-control" rows="4" cols="50" required></textarea>
+						<label for="message" class="required">
+							Brief de votre projet (Ajoutez autant de détails que nécessaire)
+						</label>
+						<textarea type="text" id="message" class="form-control" rows="4" cols="50" required placeholder="J'ai pour projet de développer..."></textarea>
 					</div> 
-					<button title="Envoyer le formulaire" class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit">
-						Envoyer
-					</button>
+					<input title="Envoyer le formulaire" class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit">
+					</input>
 				</form>
 			</div>
 			<div class="col-sm-6">
@@ -131,8 +131,11 @@
 	<div class="container bloc-sm">
 		<div class="row">
 			<div class="col-sm-12">
-				<p class="text-center white">
+				<p class="text-center white information">
 					La chouette agence - Agence web basée à Lyon.<br>
+					contact@lachouetteagence.com<br>
+					2 place Sathonay 69001 Lyon<br>
+					Ouvert de 9h à 18h, du lundi au vendredi
 				</p>
 				<div class="row row-no-gutters social">
 					<div class="col-sm-3">
